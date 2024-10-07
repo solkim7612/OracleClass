@@ -1,0 +1,50 @@
+
+고객정보 저장될 공간  ( 테이블)
+
+테이블
+ 
+crud   => create(insert ) , read( select ), u(update) , d(delete) 
+
+
+create table  acorntbl (
+    id  varchar2(10) primary key,
+    pw  varchar2(10) ,
+    name varchar2(10)
+);
+
+--crud   => create(insert ) , read( select ), u(update) , d(delete) 
+
+select *  from  acorntbl ;
+
+ 
+insert into acorntbl values('kdhyun', '4482', '김도현');
+insert into acorntbl values('kmg','1234', '김무궁');
+insert into acorntbl  values('ksjoong' ,'0000' , '김세중');
+insert into acorntbl  values('kimsh','6666','김세현');
+insert into acorntbl values('ksol', '1127', '김솔');
+insert into acorntbl values('kimjs', '0317', '김정석');
+insert into acorntbl values('kimcw','9876','김채운');
+insert into acorntbl values('backbw', '1111', '백바울'); 
+insert into acorntbl values('sbhak', '4482', '소병학');
+insert into acorntbl values('sbyoungH','0117','송병화'); 
+insert into acorntbl values('ssb,'1126','송수빈');
+insert into acorntbl values('yjmin','0625','용지민');
+insert into acorntbl values('Leesmin','6789','이상민');
+insert into acorntbl  values('LeeHjin', '1234', '이효진');
+insert into acorntbl values('Jangkho','1234','장경호');
+insert into acorntbl values('Junws', '7777', '전우선');
+insert into acorntbl values('Junjh', '9999', '전지형');
+insert into acorntbl values('Jungbr', '2344', '정보란');
+insert into acorntbl values('jooSg', '1009', '주상길');
+insert into acorntbl values('jooHJ', '3456', '주형준');
+insert into acorntbl values('Choimgil', '9898', '최문길');
+insert into acorntbl values('ChoiHj', '5589', '최형진');
+insert into acorntbl values('HYJin', '1234, '하예진');
+insert into acorntbl values('Hjyoung', '9099', '황지영');
+commit;
+
+select * from acorntbl;
+
+ 
+
+
